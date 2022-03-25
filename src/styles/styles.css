@@ -1,0 +1,31 @@
+@import "roboto.css";
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 800px;
+    margin: 1rem auto;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+pre {
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: pre-wrap;
+}
+
+.logo{
+    background-image: url("../assets/webpack-seeklogo.com.svg");
+    background-size: cover;
+    height: 50px;
+    width: 45px;
+}
+.code{
+    color: rgb(0, 52, 178);
+}
